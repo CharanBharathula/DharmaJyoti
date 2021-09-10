@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "250038488726",
+    "firebase_url": "https://dharmajyoti-8dc9a.firebaseio.com",
+    "project_id": "dharmajyoti-8dc9a",
+    "storage_bucket": "dharmajyoti-8dc9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250038488726:android:6a4b6c005df5f373da3cb7",
+        "android_client_info": {
+          "package_name": "com.example.dharmajyoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250038488726-e4jpo18ukk26buu9i1lha01g0djgt3u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharmajyoti",
+            "certificate_hash": "34d66c1571d7653c66fde96026856d06068134cd"
+          }
+        },
+        {
+          "client_id": "250038488726-rq23tks6k6g7b4lrs0rcbfdgab33qq25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC7Ti-Y32KIUYZ1AHbEEAjTGDnwIPpD-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250038488726-rq23tks6k6g7b4lrs0rcbfdgab33qq25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF7F50"
+        android:id="@+id/appbar">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="1dp"
+                    android:id="@+id/icon"
+                    android:src="@mipmap/launcher_icon" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/icon"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_send"
+                    android:visibility="gone"
+                    android:id="@+id/open_chat"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/upcoming"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btbg"
+                android:text="వార్తా లహరి "
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:id="@+id/about"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="సంస్థ గురించి"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/saamajika"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="సామాజిక సేవ"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/maatrumandali"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="మాతృ మండలి"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/baalakutira"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="బాల కుటీర"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/dharmaprachaaram"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="ధర్మ ప్రచారం"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/deva"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="దేవాలయ పరిరక్షణ"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:id="@+id/donations"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:textSize="18sp"
+                android:background="@drawable/btbg"
+                android:text="విరాళములు"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_profile"
+                    android:layout_marginLeft="2dp"
+                    android:textColor="#fff"
+                    android:drawablePadding="2dp"
+                    android:drawableLeft="@drawable/ic_edit"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logout"
+                    android:textSize="20sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="2dp"
+                    android:drawablePadding="2dp"
+                    android:textColor="#fff"
+                    android:drawableLeft="@drawable/ic_logout"/>
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_below="@+id/appbar"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:id="@+id/profle_pic"
+            android:src="@drawable/pro" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:id="@+id/name"
+                android:clickable="false"
+                android:focusable="false"
+                android:text=""
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/email"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/password"
+                android:clickable="false"
+                android:text=""
+                android:focusable="false"
+                android:textIsSelectable="true"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:clickable="false"
+                android:focusable="false"
+                android:textIsSelectable="true"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"
+                android:id="@+id/mobile"
+                android:layout_marginTop="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text=""
+                android:clickable="false"
+                android:focusable="false"
+                android:textIsSelectable="true"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"
+               android:id="@+id/id"
+                android:layout_marginTop="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

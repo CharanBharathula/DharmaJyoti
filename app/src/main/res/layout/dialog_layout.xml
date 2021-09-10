@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="15dp"
+        android:theme="@style/CardView.Dark">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="ఆశయం"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="హైందవ ధర్మ పరిరక్షణ లో ప్రధానము ,పూజా విధానంలో భాగమయిన వ్రతాలు,కుంకుమార్చనలు, కల్యాణాలు,హోమాలు మొదలుగున వాటికి
+ఆర్ధికం కారణం కారాదని తలచి,విజయవాడ, పరిసర ప్రాంతాలలోని పేద ప్రాంతాలలో సామూహిక ధార్మిక కార్యక్రమాలను మరియు ఎన్నో సామాజిక కార్యక్రమాలను పూర్తి ఉచితంగా  జరుపుతోంది. సొసైటీగా రిజిష్టరై, పాన్ కార్డ్త్ తో పాటు బ్యాంక్ అకౌంట్ కలిగి ఉంది."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="అనుబంధ విభాగాలు"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="మాతృ మండలి  "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="ఉచితంగా పూజా విధానం నేర్పడం"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="సాంసృతిక మండలి  "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="కోలాటం,శాస్త్రీయ నృత్యం ఉచితంగా నేర్పడం"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="బాలకుటీర్ "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="పిల్లలకు భగవత్గీత ,మంచి విషయాలు నేర్పడం"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="ఋషి పీఠం   "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="జోతిష్యం ఉచితంగా నేర్పడం"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="ఆశా కిరణం   "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="పదవ తరగతిలో అత్యుతమ కనబరచి ఐఐటి"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="కార్యక్రమాలు"
+                    android:textSize="20sp"
+                    android:textColor="#FF7F50"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="ధర్మ ప్రచారం "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="మపూజ్య పీఠాధిపతులు, మాతాజీలచే ప్రసంగాలు,ప్రవచనాలు,భగవద్గీత సప్తాహలు ఏర్పాటు చేస్తున్నాము."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="శ్రీ సత్యనారాయణ స్వామి వారి వ్రతాలు "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="పాల్గొన్నవారందరికీ స్వామివారి పటం,డాలర్,
+మండపరాధన , కలశ, మిగతా అన్ని పూజా ద్రవ్యాలు ,తమలపాకులు, పూలు,పండ్లు,ప్రసాదం ,ప్రత్యేకంగా చేసిన మండపారాధన షీట్ ఇవ్వబడును."/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="శ్రీ సీతారాముల కళ్యాణాలు"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="పాల్గొనే దంపతులకు శ్రీసీతారామ లక్ష్మణ,ఆంజనేయ విగ్రహాలను,మండపారాధన,కళ్యాణంకు కావలసిన ద్రవ్యాలు ఇచ్చి వారిచే కల్యాణం జరిపించడం అనంతరం కళ్యాణమూర్తులను వారికే ఇచ్చి పంపడం జరుగుతొంది."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="శకుంకుమపూజలు"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="పాల్గొనే మహిళలు, యువతులకు  అమ్మవారి పటం, అన్ని పూజాద్రవ్యాలు ఉచితంగా ఇచ్చి చేయించబడును."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text=" సరస్వతి పూజలు"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="వసంత పంచమినాడు విద్యార్థులకు అమ్మవారి పటం, పుస్తకం కలం, రక్షాకంకణం ,పూజాద్రవ్యాలు ఉచితంగా ఇచ్చి సరస్వతీ పూజ జరిపించబడుతొంది"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="పారాయణనలు"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="కోరిన వారి ఇండ్లలో సంఘసభ్యులచే ఉచితంగా విష్ణు,లలితా పారాయణలు జరుగుచున్నవి"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="కరోనా కష్ట కాలంలో కాలంలో "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="కొన్ని కుటుంబాలకు నిత్యావసర వస్తువుల
+     (15 రకాలు) పంపిణి . లోకకళ్యాణార్ధం హోమము. సమాజ చైతన్య ధ్యేయగా పారిశుద్ధ్య  కార్మికులకు          సన్మానం"/>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/social_networks"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
